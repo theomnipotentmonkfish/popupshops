@@ -1,0 +1,35 @@
+body {
+	background-color: #99ffcc;
+}
+
+.container {
+	margin:auto;
+	margin-top:30px;
+	width: 60%;
+	min-width: 400px;
+	text-align: center;
+}
+
+#output {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+button {
+	background-color: #00ff99;
+	font-size: 1.5em;
+	padding:5px;
+	border: 1px solid #00cc99;
+	cursor:pointer;
+	-webkit-box-shadow: 3px 3px 10px 0px rgba(31,156,137,1);
+	-moz-box-shadow: 3px 3px 10px 0px rgba(31,156,137,1);
+	box-shadow: 3px 3px 10px 0px rgba(31,156,137,1);
+	margin-bottom: 15px;
+}
+
+button:active {
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(31,156,137,1);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(31,156,137,1);
+	box-shadow: 3px 3px 5px 0px rgba(31,156,137,1);
+}
